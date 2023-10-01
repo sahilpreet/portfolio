@@ -6,6 +6,7 @@ import Works from "./Components/Works/Works"
 import Projects from "./Components/Projects/Projects"
 import People from "./Components/People/people";
 import Footer from "./Components/Footer/Footer"
+import Tech from './Components/Tech/Tech'
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       <Header />
       <Hero />
       <Expertise />
-      <Works />
+      <Tech />
       <Projects />
-      <People />
+      <Works />
+      {/* <People /> */}
       <Footer />
     </div>
   );

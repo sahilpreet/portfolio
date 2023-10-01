@@ -23,8 +23,8 @@ const Footer = () => {
             Let's make Something <br /> amazing together.
           </span>
           <span className="primaryText">
-            Start by{" "}
-            <a href="mailto:sahilpreetsingh9915545834@gmail.com">saying hi</a>
+            Download Resume 
+            <a href="./resume.pdf"><img src="./resume.png" alt="" /></a>
           </span>
         </div>
 

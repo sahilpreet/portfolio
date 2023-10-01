@@ -1,53 +1,61 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { BiServer } from "react-icons/bi";
+import { BsDatabaseCheck } from "react-icons/bs";
+import { AiOutlineApi } from "react-icons/ai";
 import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Website Design",
+    name: "Frontend Developer",
     projects: 76,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
+    name: "Backend developer",
     projects: 63,
-    icon: CiMobile1,
+    icon: BiServer,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
+    name: "Api development",
     projects: 47,
-    icon: MdWorkspacesOutline,
+    icon: AiOutlineApi,
     bg: "#F26440",
   },
+  {
+    name:"Database development",
+    projects:30,
+    icon:BsDatabaseCheck,
+    bg:"#3a86ff"
+  }
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "Skilled Web Developer with experience in designing, coding, and maintaining responsive and visually appealing websites. Proficient in front-end and back-end development technologies, I am passionate about creating user-friendly and efficient web solutions that meet clients' objectives."," Strong problem-solving abilities and a commitment to staying updated with the latest industry trends."
 ];
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Rogers Communication , Canada",
+    tenure: "july 2022 - Aug 2023",
+    role: "Business support technician",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Provided support to users regarding technical issues.Speaking to customers to quickly get to the root of their problem.Following up with clients to ensure the problem is resolved.Providing support in the form of procedural documentation.",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "Freelancer",
+    tenure: "Aug 2020 - May 2022",
+    role: "Web developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Automated scraping journal website using Scrapy, parsing and cleaning the data using Python.Tested many websites and removed bugs which not only decreased load time but strengthen security of websites.Developed user-friendly website which increases the reach by 30%",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "NetSoft Lab , India",
+    tenure: "June 2019 – Aug 2020",
+    role: "Web Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Developed an e-Commerce website to sell products online for a local seller. Increased the sales of a vendor by 25%.Integrated new features to an existing website using React which increased user experience of the website and make it responsive for mobile design.Make the backend faster by integrating new technologies using MERN stack which decrease the load time of a website by 50%.",
   },
 ];
 

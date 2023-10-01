@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useRef } from "react";
 import css from "./Header.module.scss";
 import { BiMenuAltRight, BiPhoneCall } from "react-icons/bi";
 import { motion } from "framer-motion";
@@ -8,6 +8,7 @@ import useHeaderShadow from "../../hooks/useHeaderShadow";
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
+  const menuRef=useRef()
 
   return (
     <motion.div
@@ -28,13 +29,14 @@ const Header = () => {
             <a href="#expertise">Services</a>
           </li>
           <li>
+            <a href="#tech">Technologies</a>
+          </li>
+          <li>
             <a href="#experience">Experience</a>
           </li>
           <li>
             <a href="#projects">Portfolio</a>
-          </li>
-          <li>
-            <a href="#people">testimonials</a>
+            {/* <a href="#people">testimonials</a> */}
           </li>
           <li className={`flexCenter ${css.phone}`}>
             <p>6476759915</p>

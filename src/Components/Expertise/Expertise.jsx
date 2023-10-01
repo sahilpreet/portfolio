@@ -27,7 +27,7 @@ const Expertise = () => {
                 </div>
                 <div>
                   <span>{exp.name}</span>
-                  <span className="secondaryText">{exp.projects} Projects</span>
+                  {/* <span className="secondaryText">{exp.projects} Projects</span> */}
                 </div>
               </motion.div>
             );
@@ -46,7 +46,7 @@ const Expertise = () => {
               </span>
             );
           })}
-          <div className={`flexCenter ${css.stats}`}>
+          {/* <div className={`flexCenter ${css.stats}`}>
             <div className={`flexCenter ${css.stat}`}>
               <span className="primaryText">250+</span>
               <span className="secondaryText">Projects Completed</span>
@@ -55,7 +55,7 @@ const Expertise = () => {
               <span className="primaryText">250+</span>
               <span className="secondaryText">happy Clients</span>
             </div>
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </motion.section>

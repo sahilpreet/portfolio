@@ -22,7 +22,7 @@
         border: 1px solid $secondary-white;
         border-radius: 20px;
         padding: 1.5rem;
-        gap: 2rem;
+        gap: 3rem;
         transition: all 200ms ease-out;
 
         &:hover {
@@ -35,6 +35,7 @@
           padding: 10px;
           width: 3rem;
           height: 3rem;
+          text-align: center;
           border-radius: 999px;
         }
 
