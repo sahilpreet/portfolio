@@ -4,11 +4,16 @@ import { BiMenuAltRight, BiPhoneCall } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
+import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
   const menuRef=useRef()
+
+  useOutsideAlerter(
+    {menuRef,setMenuOpened}
+  )
 
   return (
     <motion.div
@@ -22,6 +27,7 @@ const Header = () => {
       <div className={`flexCenter ${css.container}`}>
         <div className={css.name}>Sahil</div>
         <ul
+        ref={menuRef}
           style={getMenuStyles(menuOpened)}
           className={`flexCenter ${css.menu}`}
         >
