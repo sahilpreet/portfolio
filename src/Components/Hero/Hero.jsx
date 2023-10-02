@@ -34,7 +34,7 @@ const Hero = () => {
         <motion.div
         variants={slideIn("up", "tween", 0.3, 1)} className={css.person}>
           <motion.img
-          variants={fadeIn("up", "tween", 0.5, 1)} src="./person.png" alt="" />
+          variants={fadeIn("up", "tween", 0.5, 1)} src="./person21.png" alt="" />
         </motion.div>
 
         {/* email */}
