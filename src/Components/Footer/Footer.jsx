@@ -24,7 +24,7 @@ const Footer = () => {
           </span>
           <span className="primaryText">
             Download Resume 
-            <a href="./resume.pdf"><img src="./resume.png" alt="" /></a>
+            <a href="./resume.pdf" target="_blank"><img src="./resume.png" alt="" /></a>
           </span>
         </div>
 
