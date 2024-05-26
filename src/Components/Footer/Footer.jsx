@@ -1,7 +1,13 @@
 import React from "react";
 import css from "./Footer.module.scss";
 import { motion } from "framer-motion";
-import { fadeIn, footerVariants, staggerChildren, textVariant, textVariant2 } from "../../utils/motion";
+import {
+  fadeIn,
+  footerVariants,
+  staggerChildren,
+  textVariant,
+  textVariant2,
+} from "../../utils/motion";
 import { BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { AiFillMail } from "react-icons/ai";
 
@@ -15,16 +21,19 @@ const Footer = () => {
       className={`paddings ${css.wrapper}`}
     >
       <motion.div
-      variants={textVariant2}
-    //   variants={fadeIn("down","tween",1,1)}
-      className={`innerWidth flexCenter yPaddings ${css.container}`}>
+        variants={textVariant2}
+        //   variants={fadeIn("down","tween",1,1)}
+        className={`innerWidth flexCenter yPaddings ${css.container}`}
+      >
         <div className={css.left}>
           <span className="primaryText">
             Let's make Something <br /> amazing together.
           </span>
           <span className="primaryText">
-            Download Resume 
-            <a href="./resume.pdf" target="_blank"><img src="./resume.png" alt="" /></a>
+            Download Resume
+            <a href="./resume.pdf" target="_blank">
+              <img src="./resume.png" alt="" />
+            </a>
           </span>
         </div>
 
@@ -34,23 +43,32 @@ const Footer = () => {
             <p></p>
           </div>
           <motion.div
-           variants={fadeIn("up","tween",0.5,1)}
-           className={css.menu}>
+            variants={fadeIn("up", "tween", 0.5, 1)}
+            className={css.menu}
+          >
             <a
               className={css.linkedin}
               target="_blank"
-              href="https://www.linkedin.com/in/sahilpreet-singh-1b36b016b/"
+              href="https://www.linkedin.com/in/sahilpreet-s-1b36b016b/"
             >
               <li>
                 <BsLinkedin />
               </li>
             </a>
-            <a  target="_blank"className={css.twitter} href="https://twitter.com/">
+            <a
+              target="_blank"
+              className={css.twitter}
+              href="https://twitter.com/"
+            >
               <li>
                 <BsTwitter />
               </li>
             </a>
-            <a  target="_blank" className={css.github} href="https://github.com/sahilpreet">
+            <a
+              target="_blank"
+              className={css.github}
+              href="https://github.com/sahilpreet"
+            >
               <li>
                 <BsGithub />
               </li>
